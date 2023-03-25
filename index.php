@@ -197,7 +197,7 @@ $fn=$_POST['firstname'];
 $ln=$_POST['lastname'];
 $email=$_POST['email'];
 $tel=$_POST['tel'];
-$db=mysqli_connect('ec2-54-203-224-147.us-west-2.compute.amazonaws.com','kinmount','12345678','kinmount');
+$db=mysqli_connect('ec2-34-212-33-60.us-west-2.compute.amazonaws.com','kinmount','Abdul@12345','kinmount');
 $query="insert into inquery(KID,company_name,first_name,last_name,email,tel) values(null,'$company','$fn','$ln','$email','$tel')";
 
 $result=mysqli_query($db,$query);
